@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OriginSix</title>
 
+    <!-- ICONS -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
 
@@ -19,8 +22,20 @@
   <body>
     <header id="header">
       <nav class="container">
-        <a class="logo" href="#">pc<span>cleaning</span>.</a>
-        <div class="menu">...</div>
+        <a class="logo" href="#">pc<span>masters</span>.</a>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
       </nav>
     </header>
 
@@ -34,10 +49,12 @@
             />
           </div>
           <div class="text">
-            <h1>Limpeza profunda para seu gabinete e notebook</h1>
+            <h2 class="title">
+              Tudo o que você precisa para seu computador ou notebook
+            </h2>
             <p>
-              Fazemos uma limpeza minuciosa de todos os componentes de seu
-              computador, peça por peça.
+              Uma loja e assistência técnica exclusiva em Macapá, especializada
+              em desktops e notebooks.
             </p>
             <a class="button" href="#">Agendar um horário</a>
           </div>
@@ -46,9 +63,81 @@
 
       <div class="divider-1"></div>
 
-      <section class="section">
-        <div class="container">outra section</div>
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+              alt="Pessoas sentadas em uma mesa mexendo em computadores."
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              inventore, suscipit dolor minima aspernatur officiis laborum earum
+              quod dolore assumenda porro dignissimos illo repellendus odio
+              voluptate libero at. Fugit, ipsa.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium, quisquam voluptatum commodi, delectus cum
+              repellendus, ipsum veritatis adipisci eligendi sequi ad dicta
+              assumenda iusto hic inventore nobis vitae perspiciatis aliquid!
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              facilis ea sequi magni nostrum? Magnam recusandae dolore,
+              inventore sapiente excepturi temporibus veritatis nulla! Sit
+              aperiam perspiciatis dicta possimus unde distinctio?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p>
+              Com mais de 10 anos no mercado, a <strong>PCMasters</strong> preza
+              pela maximização da vida útil de seu dispositivo com peças de alta
+              qualidade e profissionais qualificados.
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-cosmetic"></i>
+              <h3 class="title">Limpeza profunda</h3>
+              <p>
+                Oferecemos uma limpeza completa e minuciosa de seu gabinete ou
+                notebook, peça por peça.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-trim"></i>
+              <h3 class="title">Componentes eletrônicos</h3>
+              <p>
+                Possuímos peças das fabricantes mais renomadas do mercado para
+                dar um belo upgrade no seu desktop.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-woman-hair"></i>
+              <h3 class="title">Acessórios</h3>
+              <p>
+                Aqui você também encontra acessórios para sua máquina, como
+                teclado, mouse e afins.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
